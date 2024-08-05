@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gazetteer | World Wide Information</title>
+        <meta name="description" content="A worldwide atlas with information about each country on earth.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+        <link href="favicon.ico" rel="icon">
+
+        <link rel="stylesheet" href="./libs/leaflet/leaflet.css">
+        <link rel="stylesheet" href="libs/leaflet/MarkerCluster.css">
+        <link rel="stylesheet" href="libs/leaflet/MarkerCluster.Default.css">
+        <link rel="stylesheet" href="./libs/leaflet/dist/css/leaflet.extra-markers.min.css">
+        <link rel="stylesheet" href="libs/leaflet/easy-button.css">
+        <link href="./libs/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./libs/css/style.src.css">
+    </head>
+    <body>
+        <div class="spinner-wrapper">
+            
+            <h2>gazetteer</h2>
+            <p class="italic">(noun):</p>
+            <hr>
+            <p>a book that combines names of places with extra information</p>
+            <div class="spinner">
+            <div class="globe"><img src="./libs/css/globe.png" alt="spinning globe"></div>
+          </div>
+        </div>
+        <header>
+        <h1 id="webTitle">Gazetteer</h1>
+        <form>
+            <select id="countrySelect" class="form-select" name="country">
+            <option value="none"></option>      
+            </select>
+        </form>
+
+        </header>
+        <div id="map">
+        </div>
+    
+                <section class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"><img src="https:\/\/flagcdn.com\/w320\/gb.png" alt="Country Flag" id="flag2"></h5>   
+                            <p id="item-1">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModal">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                           </div>
+                        <div class="modal-body">              
+                            <table class="table table-striped">
+                            <tr>
+                                <td colspan=2 id="item-A"></td>
+                                
+                            </tr>                                
+                            <tr>
+                                <td id="item-B"></td>
+                                <td id="item-2"></td>
+                            </tr>
+                            <tr>
+                                <td id="item-C"></td>
+                                <td id="item-3"></td>
+                            </tr>
+                            <tr>
+                                <td id="item-D"></td>
+                                <td id="item-4"></td>
+                            </tr>   
+                            
+                            <tr>
+                                <td id="item-E"></td>
+                                <td id="item-5"></td>
+                            </tr>   
+                            <tr>
+                                <td id="item-F"></td>
+                                <td id="item-6"></td>
+                            </tr>
+                            <tr>
+                                <td id="item-G"></td>
+                                <td id="item-7"></td>
+                            </tr>   
+                        </table>
+                        </div>
+                       
+                    </div>
+                    </div>
+                </section>
+
+
+</div>
+      
+        
+        <script src="./libs/js/jquery-3.6.0.min.js"></script>
+        <script src="https://kit.fontawesome.com/8f5f4152e2.js" crossorigin="anonymous"></script>
+        <script src="./libs/leaflet/leaflet.js"></script>   
+        <script src="./libs/leaflet/leaflet.markercluster.js"></script>
+        <script src="./libs/leaflet/dist/js/leaflet.extra-markers.min.js"></script>
+        <script src="./libs/leaflet/easy-button.js"></script>
+        <script src="./libs/js/bootstrap.bundle.min.js"></script>
+        <script src="./libs/js/app.src.js" type="module" async defer></script>
+    </body>
+</html>
